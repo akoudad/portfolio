@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Karim Akoudad – Director & Video Editor</title>
+  <meta name="description" content="Premium film editing, color grading, and storytelling for brands, weddings, and creators." />
+  <meta property="og:title" content="Karim Akoudad – Director & Video Editor" />
+  <meta property="og:description" content="Premium film editing, color grading, and storytelling for brands, weddings, and creators." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/images/thumb_1.png" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="nav" id="top">
+    <a class="brand" href="#top">
+      <img src="assets/images/logo.png" alt="KA monogram" width="32" height="32" loading="eager" />
+      <span>Karim Akoudad</span>
+    </a>
+    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false"></button>
+    <nav class="nav-links">
+      <a href="#reel">Showreel</a>
+      <a href="#work">Work</a>
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero-inner container">
+        <p class="overline">Director • Editor • Colorist</p>
+        <h1>Luxury-grade visuals, <em style="color:var(--accent)">story-first</em> editing.</h1>
+        <p class="lede">I craft cinematic, conversion-focused films for brands, weddings, and creators. Premium taste, disciplined sound design, and bold color.</p>
+        <div class="cta-row">
+          <a class="btn primary" href="#reel">Watch showreel</a>
+          <a class="btn ghost" href="#contact">Book a project</a>
+        </div>
+      </div>
+      <div class="hero-glow" aria-hidden="true"></div>
+    </section>
+
+    <!-- Reel -->
+    
+<section id="reel" class="section container">
+  <div class="section-head">
+    <h2>Showreel</h2>
+    <p>60 seconds. No fluff.</p>
+  </div>
+  <div class="reel-card" role="region" aria-label="Showreel">
+        <video id="reel" controls playsinline preload="metadata" poster="assets/images/thumb_1.png" style="width:100%; border-radius:16px;">
+          <source src="assets/videos/reel.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="section container">
+      <div class="section-head">
+        <h2>Services</h2>
+        <p>From raw footage to premiere-ready film.</p>
+      </div>
+      <div class="services">
+        <div class="service">
+          <h3>Editing & Story</h3>
+          <p>Rhythm-first cuts and narrative arcs that sell the moment.</p>
+        </div>
+        <div class="service">
+          <h3>Color & Finish</h3>
+          <p>Editorial color grading, film emulation, noise, and grain.</p>
+        </div>
+        <div class="service">
+          <h3>Sound & Mix</h3>
+          <p>Sound design, tasteful FX, and loudness-standard exports.</p>
+        </div>
+        <div class="service">
+          <h3>Short-Form</h3>
+          <p>TikTok/Reels/Shorts mastered with platform-native pacing.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section container about">
+      <div class="about-media">
+        <img src="assets/images/thumb_4.png" alt="Portrait / workspace" width="1200" height="1600" loading="lazy" />
+      </div>
+      <div class="about-body">
+        <h2>About</h2>
+        <p>I'm Karim, a Moroccan filmmaker & editor. I craft cinematic stories with bold, tasteful color and precise sound. From weddings to commercial spots, I build timeless visuals with a modern edge and deadline-first discipline.</p>
+        <ul class="ticks">
+          <li>7+ years editing experience</li>
+          <li>DaVinci Resolve • Premiere Pro • After Effects</li>
+          <li>Arabic • English • French</li>
+        </ul>
+        <a class="btn ghost" href="#contact">Get in touch</a>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section container contact">
+      <div class="section-head">
+        <h2>Contact</h2>
+        <p>Tell me about your project. I'll reply within 24h.</p>
+      </div>
+      <form class="contact-form" action="https://formspree.io/f/your-code" method="POST">
+        <div class="row">
+          <input name="name" placeholder="Your name" required />
+          <input type="email" name="email" placeholder="Email" required />
+        </div>
+        <input name="subject" placeholder="Subject" />
+        <textarea name="message" rows="6" placeholder="Project details, budget, timeline…" required></textarea>
+        <button class="btn primary" type="submit">Send message</button>
+        <p class="form-note">Or email: <a href="mailto:akoudad22karim@gmail.com">akoudad22karim@gmail.com</a> • <a href="https://www.instagram.com/a9ouudad.raw" target="_blank" rel="noopener">Instagram</a></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Karim Akoudad. All rights reserved.</p>
+      <a href="#top" class="back-to-top" aria-label="Back to top">↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
